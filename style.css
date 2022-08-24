@@ -1,5 +1,111 @@
 /* General codes */
 
 body {
-    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+a{
+    text-decoration: none;
+color: white;
+}
+
+/* section 1  */
+
+/* background */
+#section1{
+    height: 1304.05px;
+    background-size: cover;
+    background-position: center top;
+    transform: translate(0px , 0px);
+    background-image: url(image/background.jpg);
+}
+
+/* position for section 1 */
+#section1 .container{
+    position: relative;
+}
+
+/* crypto text & Position*/
+.crypto-title{
+    height: 542px;
+    width: fit-content;
+    position: absolute;
+    top: 310px;
+    right: 80px;
+    
+}
+
+.crypto-title > div > h1{
+    color: #0b89f2;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 72px;
+}
+
+.crypto-title > div > p{
+    color: #666666;
+}
+.crypto-title .pico{
+    height: 141px;
+    width: 450px;
+}
+
+/* two Buttons */
+.button{
+    display: inline-flex;
+}
+
+.button p{
+    padding: 13px 36px 17px 36px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 31px;
+    
+}
+
+.button p:first-of-type{
+   background: linear-gradient(to right, #5495ed, #2c53e0 );
+}
+.button p:last-of-type{
+    background: linear-gradient(to right, #7152ec, #2c30e0);
+    margin-left: 15px;
+}
+
+/* icon services */
+.icon-service{
+    height: fit-content;
+    width: 1250px;
+    position: absolute;
+    top: 1000px; 
+    right: 7px;
+    margin: 0 auto;
+    
+}
+
+.icon-service .container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    width: 1200px;
+}
+
+.icon-service h3{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #272728;
+}
+
+.icon-service .textp{
+    width: 375.66px;
+}
+
+.icon-service p{
+    color: #838383;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
 }
