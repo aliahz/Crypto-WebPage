@@ -6,85 +6,100 @@ body {
     font-family: poppins;
 }
 
-a{
+a {
     text-decoration: none;
-color: white;
+    color: white;
 }
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* section 1  */
 
 /* background */
-#section1{
+#section1 {
     height: 1304.05px;
     background-size: cover;
     background-position: center top;
-    transform: translate(0px , 0px);
+    transform: translate(0px, 0px);
     background-image: url(image/background.jpg);
 }
 
 /* position for section 1 */
-#section1 .container{
+#section1 .container {
     position: relative;
 }
 
 /* crypto text & Position*/
-.crypto-title{
+.crypto-title {
     height: 542px;
     width: fit-content;
     position: absolute;
     top: 310px;
     right: 80px;
-    
+
 }
 
-.crypto-title > div > h1{
+.crypto-title>div>h1 {
     color: #0b89f2;
     font-family: poppins;
     font-weight: 300;
     font-size: 72px;
 }
 
-.crypto-title > div > p{
+.crypto-title>div>p {
     color: #666666;
 }
-.crypto-title .pico{
+
+.crypto-title .pico {
     height: 141px;
     width: 450px;
 }
 
 /* two Buttons */
-.button{
+.button {
     display: inline-flex;
 }
 
-.button p{
+.button p {
     padding: 13px 36px 17px 36px;
     font-size: 14px;
     font-weight: 500;
     border-radius: 31px;
-    
+
 }
 
-.button p:first-of-type{
-   background: linear-gradient(to right, #5495ed, #2c53e0 );
+.button p:first-of-type {
+    background: linear-gradient(to right, #5495ed, #2c53e0);
 }
-.button p:last-of-type{
+
+.button p:last-of-type {
     background: linear-gradient(to right, #7152ec, #2c30e0);
     margin-left: 15px;
 }
 
+
 /* icon services */
-.icon-service{
+.icon-service {
     height: fit-content;
     width: 1250px;
     position: absolute;
-    top: 1000px; 
+    top: 1000px;
     right: 7px;
     margin: 0 auto;
-    
+
 }
 
-.icon-service .container{
+.icon-service .container {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -93,19 +108,108 @@ color: white;
     width: 1200px;
 }
 
-.icon-service h3{
+.icon-service h3 {
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #272728;
 }
 
-.icon-service .textp{
+.icon-service .textp {
     width: 375.66px;
 }
 
-.icon-service p{
+.icon-service p {
     color: #838383;
     font-size: inherit;
     -webkit-font-smoothing: antialiased;
+}
+
+/* header */
+
+#header {
+    background-color: rgba(255, 255, 255, 0.89);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    /* padding: 15px 0; */
+    /* border-bottom: 1px solid rgb(243, 241, 241); */
+    box-shadow: 0 -2px 5px 0px rgb(194, 194, 194);
+
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px 15px 0;
+    box-sizing: border-box;
+}
+
+
+#header #logo {
+    transform: scale(0.7);
+}
+
+
+#header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header #navbar {
+    display: flex;
+    align-items: center;
+}
+
+#header ul>li {
+    font-family: montserrat;
+    font-size: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+#header ul>li a {
+    padding: 15px 0;
+    color: #818181;
+}
+
+#header ul>li a:hover {
+    color: #1e63da;
+}
+
+#header ul>li a:visited {
+    color: #1e63da;
+
+}
+
+
+#navbar>a {
+    background-color: #1379e7;
+    border-radius: 4px;
+    padding: 11px 22px;
+    color: #fff;
+    font-family: poppins;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 13px;
+}
+
+#navbar>a:hover {
+    background-color: #1153e0;
+
+}
+
+#navbar span {
+    transform: scale(-1, 1);
+    margin: 0 13px;
+    font-size: 14px;
+}
+
+#line {
+    width: 0px;
+    height: 16px;
+    border-right: 1px solid#7a7a7a;
+
 }
