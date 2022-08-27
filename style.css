@@ -178,12 +178,13 @@ ul {
 #navbar>a {
   background-color: #1379e7;
   border-radius: 4px;
-  padding: 11px 22px;
+  padding: 8px 15px;
+  border: 2px solid #1379e7;
   color: #fff;
   font-family: poppins;
   font-size: 11px;
   font-weight: 700;
-  margin-left: 13px;
+  margin-left: 11px;
   letter-spacing: 1px;
 }
 
@@ -346,3 +347,202 @@ h3 {
 }
 
 /* Finished By Ahmad */
+
+
+
+/*---section token---*/
+/* Creat By Nasrin */
+
+#token {
+  background-image: url(image/allocate-bg-2.png);
+  background-repeat: repeat-x;
+  margin-top: 70px;
+}
+
+#token .container {
+  background-image: url(image/allocated-bg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  padding: 80px 0;
+
+}
+
+/* horizontal line */
+#token #divider {
+  width: 50%;
+  height: 60px;
+  border-right: 1px #335EE2 solid;
+}
+
+#token #title {
+  text-align: center;
+  margin: 55px 0;
+}
+
+#token #title h3 {
+  color: rgb(51, 94, 226);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+#token #title span {
+  color: rgb(160, 160, 160);
+  margin-top: 6px;
+  letter-spacing: 1px;
+}
+
+/* main-token = 4 <items> divs */
+#main_token {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 65px 25px;
+}
+
+
+#main_token>div {
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+/* prices:row 1 left*/
+#main_token #prices {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main_token #prices .items {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+#main_token #prices .items h6 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #242424;
+  font-weight: 700;
+  display: block;
+  margin: 5px 0;
+}
+
+#main_token #prices .items span {
+  font-size: 14px;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+#main_token #prices p {
+  font-size: 13px;
+  color: #a3a3a3;
+  margin-top: 40px;
+}
+
+/* chart<js> */
+
+
+/* buy:row 2 left */
+#main_token #buy>p {
+  font-size: 15px;
+  color: #272728;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+
+}
+
+#main_token #buy .reasons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#main_token #buy .reasons>p {
+  padding: 0 68px 15px 30px;
+  color: #838383;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-top: 0;
+}
+
+/* market:row 2 right*/
+
+#main_token #market {
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 62px 153px 20px 153px;
+  height: fit-content;
+}
+
+/* button */
+#main_token #market .button {
+  padding: 15px 33px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #2c54e0, #5393ed);
+}
+
+/* progress bar */
+#main_token #market #progress {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0 16px 0;
+}
+
+/* progress bar title  */
+#main_token #market #progress .statistics p {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  text-align: left;
+}
+
+#main_token #market #progress .statistics:last-of-type p {
+  text-align: right;
+}
+
+#main_token #market #progress .statistics span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9d9d9d;
+}
+
+/* progress line */
+#main_token #market #progress_bar {
+  width: 100%;
+  height: 6px;
+  background-color: #eaeaea;
+  border-radius: 3px;
+}
+
+#main_token #market #progress_bar #colorline {
+  width: 70%;
+  height: 6px;
+  background-color: #2576f9;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* bottom of progress bar */
+#main_token #market #icons {
+  margin: 33px 0;
+  text-align: left;
+
+}
+
+#main_token #market #icons span {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 22px;
+}
+
+#main_token #market #icons img {
+  vertical-align: middle;
+}
+
+/* Finished By Nasrin */
