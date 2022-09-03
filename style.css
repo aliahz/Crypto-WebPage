@@ -125,12 +125,14 @@ ul {
 }
 
 /* Creat By Nasrin */
-/* header */
+
+/* main header: remain top of the page */
 #header {
   background-color: rgba(255, 255, 255, 0.89);
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
-  z-index: 99;
+  z-index: 90;
   box-shadow: 0 -2px 5px 0px rgb(194, 194, 194);
 
 }
@@ -180,7 +182,7 @@ ul {
 }
 
 
-#navbar>a {
+#header #navbar>a {
   background-color: #1379e7;
   border-radius: 4px;
   padding: 9px 15px;
@@ -193,16 +195,97 @@ ul {
   letter-spacing: 1px;
 }
 
-#navbar>a:hover {
+#header #navbar>a:hover {
   background-color: #1153e0;
 }
 
-#navbar span {
+#header #navbar span {
   transform: scale(-1, 1);
   font-size: 14px;
 }
 
-#line {
+#header #line {
+  width: 0px;
+  height: 16px;
+  border-right: 1px solid#7a7a7a;
+  margin: 0 17px 6px 27px;
+}
+
+/* header2 */
+/*primary Header <display when the page loaded>*/
+/* overlaps main header */
+
+#header2 {
+  position: relative;
+  z-index: 99;
+  background-image: url(image/background.jpg);
+}
+
+#header2 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px 15px 35px;
+  box-sizing: border-box;
+}
+
+
+#header2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+#header2 #navbar {
+  display: flex;
+  align-items: center;
+}
+
+#header2 ul>li {
+  font-family: montserrat;
+  font-size: 15px;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
+#header2 ul>li a {
+  padding: 15px 0;
+  color: #818181;
+}
+
+#header2 ul>li a:hover {
+  color: #1e63da;
+}
+
+#header2 ul>li a:visited {
+  color: #1e63da;
+}
+
+
+#header2 #navbar>a {
+  background-color: #1379e7;
+  border-radius: 4px;
+  padding: 9px 15px;
+  border: 2px solid #1379e7;
+  color: #fff;
+  font-family: poppins;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 11px;
+  letter-spacing: 1px;
+}
+
+#header2 #navbar>a:hover {
+  background-color: #1153e0;
+}
+
+#header2 #navbar span {
+  transform: scale(-1, 1);
+  font-size: 14px;
+}
+
+#header2 #line {
   width: 0px;
   height: 16px;
   border-right: 1px solid#7a7a7a;
@@ -210,7 +293,6 @@ ul {
 }
 
 /* Finished By Nasrin */
-
 
 /* Creat By Ahmad */
 
