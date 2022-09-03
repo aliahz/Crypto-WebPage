@@ -136,7 +136,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 45px 15px 0;
+  padding: 15px 40px 15px 0;
   box-sizing: border-box;
 }
 
@@ -148,6 +148,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 20px;
 }
 
 #header #navbar {
@@ -158,7 +159,7 @@ ul {
 #header ul>li {
   font-family: montserrat;
   font-size: 15px;
-  padding: 5px 15px;
+  padding: 5px 16px;
   cursor: pointer;
 }
 
@@ -179,7 +180,7 @@ ul {
 #navbar>a {
   background-color: #1379e7;
   border-radius: 4px;
-  padding: 8px 15px;
+  padding: 9px 15px;
   border: 2px solid #1379e7;
   color: #fff;
   font-family: poppins;
@@ -195,7 +196,6 @@ ul {
 
 #navbar span {
   transform: scale(-1, 1);
-  margin: 0 13px;
   font-size: 14px;
 }
 
@@ -203,6 +203,7 @@ ul {
   width: 0px;
   height: 16px;
   border-right: 1px solid#7a7a7a;
+  margin: 0 17px 6px 27px;
 }
 
 /* Finished By Nasrin */
