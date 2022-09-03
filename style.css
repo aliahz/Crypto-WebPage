@@ -632,7 +632,7 @@ h3 {
 /* started by Ali */
 /* team pictures edits */
 #team-picture {
-  /* height: 800px; */
+   height: fit-content; 
   width: 1230px;
   background-color: #ffffff;
   margin: 0 auto;
@@ -653,9 +653,13 @@ h3 {
 /* border and text */
 .things {
   text-align: center;
+  position: relative;
+}
+
+.things-position{
   position: absolute;
-  top: 100px;
-  right: 516px;
+  top: 40px;
+  right: 480px;
 }
 
 .things>div>p {
