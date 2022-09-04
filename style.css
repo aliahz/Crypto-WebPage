@@ -913,7 +913,7 @@ h3 {
 /* Blue background section */
 #blue-bg {
   height: 550px;
-  background: linear-gradient(to right, #62a3ff, #2c53e0);
+  background: linear-gradient(to right, #21adff, #253ed1);
   position: relative;
 }
 
@@ -1000,40 +1000,10 @@ h3 {
   width: 250px;
 }
 
-/* Updates section edits */
-#updates {
-  height: 300px;
-  width: 1000px;
-  background-image: url(image/updates.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  margin: 0 auto;
-  position: relative;
-}
+/*   Started By Ahmad   */
 
-#updates .container {
-  width: fit-content;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50px;
-  right: 450px;
-}
+/*   Updates (Recent News) */
 
-.updates-border {
-  border-right: 1px solid;
-  border-color: #335ee2;
-  height: 60px;
-  margin: 0 auto;
-}
-
-#updates .container p {
-  font-size: 15px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  color: #335ee2;
+#Updates{
+  height: 2000px;
 }
