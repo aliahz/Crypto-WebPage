@@ -1005,7 +1005,7 @@ h3 {
 
 /*   Updates (Recent News) */
 #Updates{
-  height: 2000px;
+  height:fit-content;
 }
 
 #Updates a{
