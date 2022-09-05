@@ -1000,10 +1000,148 @@ h3 {
   width: 250px;
 }
 
-/*   Started By Ahmad   */
+
+/*  :D Started By Ahmad XP  */
 
 /*   Updates (Recent News) */
-
 #Updates{
   height: 2000px;
 }
+
+#Updates a{
+  color: #333;
+}
+/* Background UPDATES */
+#Updates .container {
+  background-image: url(image/updates.png);
+  background-repeat: no-repeat;
+  background-position: 50% 12%;
+  padding: 110px 0 10px 0;
+}
+
+.updates-border{
+    width: 50%;
+    height: 60px;
+    border-right: 1px #335EE2 solid;
+  
+}
+
+#Updates .container>h3{
+  text-align: center;
+  margin-top: 65px;
+  color: #1153e0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*   Updates > Main Part   */
+
+#Main-Updates{
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+/*   Updates > Main Part > Left(IMG-BTC)   */
+
+#Updates #Img-Btc{
+  overflow: hidden;
+  width: 601px;
+  height:450px ;
+  position: relative;
+}
+#Updates #Img-Hover> img{
+  transition: 0.5s;
+}
+#Img-Btc{
+  background-color: #030303;
+}
+
+#Updates #Img-Btc:hover> #Img-Hover>img{
+  transform: scale(1.1);
+  opacity: .4;
+}
+
+#Updates #Description{
+  width: 80%;
+  position: absolute;
+  bottom: 8%;
+  left: 5%;
+}
+#Updates #Description a, #Links>span, #Links a{
+  color: #fff;
+}
+
+#Updates #Description>a{
+  font-size: 22px;
+  font-weight: 700;
+}
+#Updates #Description>#Links{
+  margin-top: 12px;
+}
+
+#Updates #Description>#Links>span{
+  margin-right: 10px;
+}
+
+#Updates #Description>#Links a,span{
+  font-size: 14px;
+}
+
+/*   Updates > Main Part > Right   */
+#Part-Right{
+  width: 46%;
+}
+#Part-Right .Description{
+  width: 84%;
+}
+
+#Part-Right .News{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:35px;
+}
+#Part-Right .News p{
+  margin: 10px 0;
+  font-weight: 600;
+}
+.News img{
+  width: 80px;
+}
+#Part-Right a{
+  color: rgb(133, 133, 133);
+}
+
+.Img-News{
+  background-color: #000;
+  height: 80px;
+  overflow: hidden;
+}
+
+.Img-News:hover>.Hover-News>a>img{
+  transform: scale(1.2);
+  opacity: .6;
+}
+.Img-News>.Hover-News>a>img{
+  transition: .3s;
+}
+
+/*   Bottom = Read The Blog */
+#MoreBlog-Bottom{
+  text-align: center;
+  margin-top: 45px;
+}
+
+#MoreBlog-Bottom a{
+  background: linear-gradient(to right, #5495ed, #2c53e0);
+  padding: 19px 33px ;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+/*  |*\__/*| End By Ahmad |*\__/*|  */
+
+/*   :(   **********************************  ;)    */
