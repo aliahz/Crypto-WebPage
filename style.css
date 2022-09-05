@@ -1330,6 +1330,7 @@ footer {
   font-size: 16px;
 }
 
+/* ************************************************************ */
 /* back to top botton */
 #scrollbutton {
   display: inline-block;
@@ -1345,3 +1346,58 @@ footer {
   bottom: 30px;
   right: 30px;
 }
+
+/* *************************************************************** */
+/* animatin */
+/* animation_name:from_left: Appearing from the left  */
+@keyframes from_left {
+  0% {
+    opacity: 0;
+    transform: translatex(-80px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translatex(0);
+  }
+}
+
+/* animation_name:from_bottom: Appearing from the bottom  */
+@keyframes from_bottom {
+  0% {
+    opacity: 0;
+    transform: translatey(80px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translatey(0);
+  }
+}
+
+/* animation_name:from_right: Appearing from the bottom  */
+@keyframes from_right {
+  0% {
+    opacity: 0;
+    transform: translatex(80px);
+  }
+
+  100% {
+    opacity: 100;
+    transform: translatex(0);
+  }
+}
+
+.animated_left {
+  animation: from_left 0.8s both;
+}
+
+.animated_right {
+  animation: from_right 0.8s both;
+}
+
+.animated_bottom {
+  animation: from_bottom 0.8s both;
+}
+
+/* Finished By Nasrin */
