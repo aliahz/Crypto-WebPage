@@ -914,6 +914,10 @@ h3 {
 #blue-bg {
   height: 550px;
   background: linear-gradient(to right, #21adff, #253ed1);
+
+}
+
+#blue-bg .container {
   position: relative;
 }
 
